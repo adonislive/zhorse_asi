@@ -5,12 +5,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zhorse_asi", "zhorse_asi\zh
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78B33BC6-FD0D-456F-B152-5BB245677C25}.Debug|Win32.ActiveCfg = Debug|Win32
-		{78B33BC6-FD0D-456F-B152-5BB245677C25}.Debug|Win32.Build.0 = Debug|Win32
 		{78B33BC6-FD0D-456F-B152-5BB245677C25}.Release|Win32.ActiveCfg = Release|Win32
 		{78B33BC6-FD0D-456F-B152-5BB245677C25}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
