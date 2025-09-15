@@ -33,7 +33,7 @@ void PatchT(int target, T value)
 
 void PatchNopByRange(DWORD start, DWORD end)
 {
-    for (DWORD i = start; i <= end; i++)
+    for (DWORD i = start; i < end; i++)
         PatchT(i, (BYTE)0x90);
 }
 
@@ -354,4 +354,5 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD ul_reason_for_call, LPVOID lpReserve
         return TRUE;
     }
     return TRUE;
+
 }
